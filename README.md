@@ -1,6 +1,6 @@
 <p align="center"><br><img src="https://avatars.githubusercontent.com/u/54233521?s=200&v=4" width="128" height="128"/></p>
 
-<h3 align="center">Checksum Generator</h3>
+<h3 align="center">Checksum Report</h3>
 <p align="center"><strong><code>@objekt/checksum-report</code></strong></p>
 <p align="center">NodeJS utility library to generate checksums for files and directories.</p>
 
