@@ -1,4 +1,4 @@
-<p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128"/></p>
+<p align="center"><br><img src="https://avatars.githubusercontent.com/u/54233521?s=200&v=4" width="128" height="128"/></p>
 
 <h3 align="center">Checksum Generator</h3>
 <p align="center"><strong><code>@objekt/checksum-generator</code></strong></p>
