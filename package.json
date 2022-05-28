@@ -1,16 +1,16 @@
 {
-	"name": "@objekt/checksum-generator",
+	"name": "@objekt/checksum-report",
 	"version": "1.0.0",
 	"description": "NodeJS utility library to generate checksums for files and directories.",
 	"author": "Objekt Labs",
 	"license": "MIT",
-	"homepage": "https://github.com/objektlabs/checksum-generator",
+	"homepage": "https://github.com/objektlabs/checksum-report",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/objektlabs/checksum-generator.git"
+		"url": "git+https://github.com/objektlabs/checksum-report.git"
 	},
 	"bugs": {
-		"url": "https://github.com/objektlabs/checksum-generator/issues"
+		"url": "https://github.com/objektlabs/checksum-report/issues"
 	},
 	"type": "module",
 	"main": "dist/index.js",

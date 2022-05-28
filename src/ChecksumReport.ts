@@ -39,7 +39,7 @@ export declare type Checksum = {
  * 
  * @example
  * ```js
- * import { ChecksumReport } from '@objekt/checksum-generator';
+ * import { ChecksumReport } from '@objekt/checksum-report';
  * 
  * // Generate and save a checksum for a directory.
  * const report = await ChecksumReport.get('./dist', './dist/checksum.json');

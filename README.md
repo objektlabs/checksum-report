@@ -1,16 +1,16 @@
 <p align="center"><br><img src="https://avatars.githubusercontent.com/u/54233521?s=200&v=4" width="128" height="128"/></p>
 
 <h3 align="center">Checksum Generator</h3>
-<p align="center"><strong><code>@objekt/checksum-generator</code></strong></p>
+<p align="center"><strong><code>@objekt/checksum-report</code></strong></p>
 <p align="center">NodeJS utility library to generate checksums for files and directories.</p>
 
 <p align="center">
 	<img src="https://img.shields.io/maintenance/yes/2022?style=flat-square"/>
 	<a href="https://github.com/capacitor-community/http/actions?query=workflow%3A%22Test+and+Build+Plugin%22"><img src="https://img.shields.io/github/workflow/status/capacitor-community/http/Test%20and%20Build%20Plugin?style=flat-square"/></a>
-	<a href="https://www.npmjs.com/package/@objekt/checksum-generator"><img src="https://img.shields.io/npm/l/@objekt/checksum-generator?style=flat-square"/></a>
+	<a href="https://www.npmjs.com/package/@objekt/checksum-report"><img src="https://img.shields.io/npm/l/@objekt/checksum-report?style=flat-square"/></a>
 	<br>
-	<a href="https://www.npmjs.com/package/@objekt/checksum-generator"><img src="https://img.shields.io/npm/dw/@objekt/checksum-generator?style=flat-square"/></a>
-	<a href="https://www.npmjs.com/package/@objekt/checksum-generator"><img src="https://img.shields.io/npm/v/@objekt/checksum-generator?style=flat-square"/></a>
+	<a href="https://www.npmjs.com/package/@objekt/checksum-report"><img src="https://img.shields.io/npm/dw/@objekt/checksum-report?style=flat-square"/></a>
+	<a href="https://www.npmjs.com/package/@objekt/checksum-report"><img src="https://img.shields.io/npm/v/@objekt/checksum-report?style=flat-square"/></a>
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <a href="#contributors-"><img src="https://img.shields.io/badge/all%20contributors-1-orange?style=flat-square" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -66,7 +66,7 @@ e.g.
 
 ## Installation
 ```bash
-npm install @objekt/checksum-generator
+npm install @objekt/checksum-report
 ```
 
 ## Configuration
@@ -91,7 +91,7 @@ console.log(report);
 Generate and save a checksum for the dist directory as checksum.json to disk.
 
 ```js
-import { ChecksumReport } from '@objekt/checksum-generator';
+import { ChecksumReport } from '@objekt/checksum-report';
 
 const report = await ChecksumReport.save('./dist', './dist/checksum.json');
 
@@ -100,7 +100,7 @@ console.log(report);
 
 ## API Reference
 
-Full API documentation [here](https://objektlabs.github.io/checksum-generator/modules.html).
+Full API documentation [here](https://objektlabs.github.io/checksum-report/modules.html).
 
 ## Contributors ✨
 
@@ -111,7 +111,7 @@ Contributions of any kind welcome! ([emoji key](https://allcontributors.org/docs
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/jn42lm1"><img src="https://avatars2.githubusercontent.com/u/54233338?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jn42lm1</b></sub></a><br /><a href="https://github.com/objektlabs/checksum-generator/commits?author=jn42lm1" title="Code">💻</a> <a href="https://github.com/objektlabs/checksum-generator/commits?author=jn42lm1" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/jn42lm1"><img src="https://avatars2.githubusercontent.com/u/54233338?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jn42lm1</b></sub></a><br /><a href="https://github.com/objektlabs/checksum-report/commits?author=jn42lm1" title="Code">💻</a> <a href="https://github.com/objektlabs/checksum-report/commits?author=jn42lm1" title="Documentation">📖</a></td>
   </tr>
 </table>
 
