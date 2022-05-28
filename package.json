@@ -1,6 +1,6 @@
 {
 	"name": "@objekt/checksum-report",
-	"version": "1.0.0",
+	"version": "0",
 	"description": "NodeJS utility library to generate checksums for files and directories.",
 	"author": "Objekt Labs",
 	"license": "MIT",
