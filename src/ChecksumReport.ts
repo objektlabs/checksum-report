@@ -80,8 +80,10 @@ export const ChecksumReport = {
 	 * 
 	 * @param directoryPath - The path to the directory to generate a checksum for.
 	 * @param outputPath - The path to save the checksum output to, defaults to checksum.json in the given directory.
+	 * 
+	 * @returns A JSON string containing the directory checksum.
 	 */
-	save: async (directoryPath: string, outputPath?: string): Promise<void> => {
+	save: async (directoryPath: string, outputPath?: string): Promise<string> => {
 
 		// Set the default output file path.
 		if (!outputPath) {
@@ -89,13 +91,13 @@ export const ChecksumReport = {
 		}
 
 		// Generate the directory checksum.
-		const checksum = ChecksumReport.get(directoryPath);
+		const checksumJSON = await ChecksumReport.get(directoryPath);
 
 		// Write the checksum output the specified directory.
-		await fsp.writeFile(
-			outputPath,
-			JSON.stringify(checksum)
-		);
+		await fsp.writeFile(outputPath, checksumJSON);
+
+		// Return the resulting checksum hash once done.
+		return checksumJSON;
 	}
 };
 
