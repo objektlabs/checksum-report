@@ -76,7 +76,7 @@ No configuration needed. This libary targets NodeJS 16 and above.
 
 ### Generate Checksum Report
 
-Generate a checksum report for the dist directory.
+Generate a checksum report for the **dist** directory.
 
 ```js
 import { ChecksumReport } from '@objekt/checksum-report';
@@ -88,7 +88,7 @@ console.log(report);
 
 ### Generate and Save Checksum Report to Disk
 
-Generate and save a checksum for the dist directory as checksum.json to disk.
+Generate and save a checksum for the **dist** directory as checksum.json to disk.
 
 ```js
 import { ChecksumReport } from '@objekt/checksum-report';
